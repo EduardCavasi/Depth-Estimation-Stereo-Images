@@ -1,0 +1,36 @@
+# Visual Studio
+.vs/
+*.VC.db
+*.VC.opendb
+
+# Build results
+Debug/
+Release/
+x64/
+x86/
+build/
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+
+# User-specific files
+*.user
+*.suo
+
+# Temporary files
+*.log
+*.tmp
+
+# OpenCV generated
+*.obj
+*.pch
+*.ilk
+*.pdb
+*.ipch
+
+Videos
+OpenCV 
+Images
+doc
+clean.bat
