@@ -23,7 +23,7 @@ The pipeline is **local stereo matching**: Census-transform descriptors, **Hammi
 | **Hamming distance** | Number of differing bits between two Census codes (`__popcnt64` on XOR).                                                     |
 | **Occluded pixel**   | Visible in one view only; marked invalid (`-1`) after left–right check.                                                      |
 | **EPE**              | End-point error: mean absolute disparity error on valid pixels.                                                              |
-| **Bad pixel**        | Valid pixel where`                                                                                                           |
+| **Bad pixel**        | Valid pixel where \|d_pred - d_gt\| > T, here T = 2                                                                                                          |
 
 
 ### Input / output
